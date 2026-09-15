@@ -20,5 +20,5 @@
 /* The supplied team photo has 10% black bars on both sides; crop them in this banner. */
 .about-image img{width:125%;max-width:none;margin-left:-12.5%}
 /* Header lockup: keep the symbol at its existing height, enlarge the original vector lettering. */
-.site-header .brand img{width:180px;height:46px;max-height:46px}
+.site-header .brand img{width:136px;height:46px;max-height:46px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
