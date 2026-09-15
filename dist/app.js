@@ -12,8 +12,9 @@
       document.getElementById('slide-current').textContent = String(active + 1).padStart(2, '0');
     }
     tabs.forEach((tab, i) => tab.addEventListener('click', () => showSlide(i)));
-    hero.querySelector('[data-slide-prev]').addEventListener('click', () => showSlide(active - 1));
-    hero.querySelector('[data-slide-next]').addEventListener('click', () => showSlide(active + 1));
+    const carousel = hero.closest('.hero-wrap');
+    carousel.querySelectorAll('[data-slide-prev]').forEach(button => button.addEventListener('click', () => showSlide(active - 1)));
+    carousel.querySelectorAll('[data-slide-next]').forEach(button => button.addEventListener('click', () => showSlide(active + 1)));
     hero.addEventListener('keydown', event => {
       if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
         event.preventDefault();
