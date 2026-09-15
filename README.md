@@ -22,6 +22,6 @@
 
 所有页面均为静态 HTML / CSS / JavaScript，无依赖与构建步骤。在 `dist` 中运行一个静态 HTTP 服务器即可预览。
 
-公共资源在 `dist/assets/`，来自用户已有项目与提供的资料；不得将概念图描述为产品实拍。`industrial-design-page-1.png` 是用户指定的《工业设计.pdf》第一页渲染，完整 PDF 未上传。其作品内标识仅属于原设计画面，不表示客户背书。本次未新生成 AI 图片。
+公共资源在 `dist/assets/`，来自用户已有项目与提供的资料；不得将概念图描述为产品实拍。`industrial-design-page-1.png` 是用户指定的《工业设计.pdf》第一页渲染，完整 PDF 未上传。`industrial-design-extended.png` 经内置图像编辑向上下扩展蓝灰色背景，用于首页完整高度展示；原始渲染保留。其作品内标识仅属于原设计画面，不表示客户背书。编辑提示词见 `image-edit-prompt.txt`。
 
 GitHub Pages 使用 `gh-pages` 分支根目录，主分支保留完整项目。发布前验证本地链接、脚本语法、页面导航与表单复制流程。

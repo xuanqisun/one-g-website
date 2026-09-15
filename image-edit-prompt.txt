@@ -1,0 +1,8 @@
+Tool: built-in image_gen, edit mode
+Input: dist/assets/industrial-design-page-1.png
+Output: dist/assets/industrial-design-extended.png
+
+Use case: precise-object-edit / background outpainting.
+Input image 1 is the EDIT TARGET, not a style reference. It is an existing industrial-design rendering to use on the right side of a commercial website hero.
+Extend this landscape image vertically into a SQUARE 1:1 canvas, by adding roughly equal amounts of background above and below. Keep the original full-width landscape image centered vertically and preserve its original contents EXACTLY: the suspended robot, both mechanical arms, gripper, cameras, logo markings, cables, pose, materials, colors, geometry, lighting, perspective, and all existing details must remain unchanged. Do not redesign, redraw, duplicate, crop off, or move any component.
+The only new pixels should be a seamless extension of the existing subdued blue-gray gradient background: the top extension continues the original upper-edge blue color, the lower extension continues the original bottom-edge pale blue-gray color. Continue the very subtle original background texture naturally, but add no objects, scenery, text, graphics, stars, or borders. The transition from the original image to the new top and bottom areas must be invisible. This is canvas extension, NOT a feathered frame: do not blur or fade the image edges to white or transparency, and do not vignette. Fill the entire square with the continuous original-style background.
